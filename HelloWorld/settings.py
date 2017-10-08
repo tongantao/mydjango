@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9rxlnrex379o^j4w_gxw9po3p9l1d=5(8cdvvt*q=wlwkco^r*'
+SECRET_KEY = '-k+2q9cz!yum%bxqxuqhy_)2$j%bv5be1!li0nsiv4(*p)f&lm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,13 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-     'django.contrib.admin',
-     'django.contrib.auth',
-     'django.contrib.contenttypes',
-     'django.contrib.sessions',
-     'django.contrib.messages',
-     'django.contrib.staticfiles',
-     ‘newworld',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +54,7 @@ ROOT_URLCONF = 'HelloWorld.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,’templates’)],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
